@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Roboto+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 8vw;
+}
+.container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: radial-gradient( circle 455px at 50% 40%,  rgba(67,46,105,1) 8%, rgb(9, 5, 14) 90% );
+}   
+p.cab{
+    font-weight: lighter;
+    font-size: 1.3vw;
+    margin-left: 33%;
+    width: 30%;
+}
+.nome{
+    font-weight: 800;
+    font-size: 1.5vw;
+    color: rgba(67,46,105,1);
+    padding-left: 12%;
+    padding-top: 1vh;
+}
+.container img{
+    width: 3vw;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding-right: 28vw;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin-left: 5vw;
+}
+.links img{
+    width: 2vw;
+}
+.links img:hover{
+    transform:translateY(-10px);
+    transition: transform 0.5s;
+}
+.container2{
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: rgb(217, 175, 217);}
+
+.wave-container {  
+    height: 5vh;
+    background-color: #070707;
+    position: relative;
+  }
+  
+  .wave-container::before {   
+    content: "";
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    bottom: -0.3%;
+    left: 0;
+    background-size: auto;
+    background-repeat: repeat no-repeat;
+    background-position: 10vw bottom;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  121' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 89L50 84C100 78 200 67 300 45C400 24 500 -9 600 2C700 13 800 67 900 89C1000 111 1100 100 1150 94L1200 89V122H1150C1100 122 1000 122 900 122C800 122 700 122 600 122C500 122 400 122 300 122C200 122 100 122 50 122H0V89Z' fill='%23d9afd9'/></svg>");
+  }
+  
+  @media(max-width:850px) {
+    .wave-container::before {    
+      height: 12px
+    }  
+  }
+  .projeto img{
+    width: 30vw;
+    height: 53vh;
+  }
+  .projeto{
+    width: 30vw;
+    text-align: center;
+  }
+  h3{
+    font-weight: lighter;
+    padding-bottom: 10px;
+  }
